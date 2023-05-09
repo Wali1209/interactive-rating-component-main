@@ -1,0 +1,118 @@
+#root {
+    width: 100%;
+    min-height: 100dvh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    width: 25rem;
+    padding: 2rem;
+    background-color: #1f2630;
+    border-radius: 2rem;
+  }
+  .main.hidden {
+    display: none;
+  }
+  .star-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+    background-color: #262f38;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+  main > span .fa-solid {
+    color: #fa7b1a;
+    font-size: 1.125rem;
+  }
+  main > span .fa-regular {
+    font-size: 1.125rem;
+    color: #fff;
+  }
+  
+  .feedback-text {
+    color: #fff;
+    cursor: default;
+  }
+  .feedback-text h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .feedback-text p {
+    opacity: 0.6;
+    font-size: 0.9375rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .rating .rating-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #262f38;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .rating-btn:focus {
+    background-color: #fa7b1a;
+    opacity: 1;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    border: none;
+    background-color: #fa7b1a;
+    color: #fff;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  
+  /* thank-you page styling */
+  .thank-you-section {
+    text-align: center;
+    display: none;
+  }
+  .thank-you-section.show {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .thank-you-section svg {
+    margin: 2rem auto;
+    margin-top: 0;
+    display: block;
+  }
+  .feedback-result {
+    color: #fa7b1a;
+    background-color: #272f3c;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    opacity: 0.9;
+  }
+  .thank-you-text {
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .thank-you-section P {
+    opacity: 0.6;
+    color: #fff;
+  }
+  
