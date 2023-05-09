@@ -68,11 +68,17 @@
     cursor: pointer;
     opacity: 0.6;
   }
+  
   .rating-btn:focus {
     background-color: #fa7b1a;
     opacity: 1;
   }
-  
+  .rating-btn:hover{
+    background-color: #fff;
+    opacity: 0.6;
+    color: #262f38;
+    transition: all 200ms ease;
+  }
   button[type='submit'] {
     width: 100%;
     border: none;
@@ -82,7 +88,12 @@
     border-radius: 2rem;
     cursor: pointer;
   }
-  
+  button[type='submit']:hover{
+    background-color: #fff;
+    color:#fa7b1a;
+    transition: all 0.2s ease;
+    
+  }
   /* thank-you page styling */
   .thank-you-section {
     text-align: center;
