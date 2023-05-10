@@ -42,7 +42,7 @@
     cursor: default;
   }
   .feedback-text h1 {
-    font-size: clamp(1rem , 1.6dvw , 2rem);
+    font-size: clamp(1.5rem , 1.6dvw , 2rem);
     font-weight: 400;
     margin-bottom: 1rem;
   }
@@ -119,12 +119,12 @@
   .thank-you-text {
     margin: 1rem 0;
     color: #fff;
-    font-size: clamp(1rem , 1.6dvw , 2rem);
+    font-size: clamp(1.5rem , 1.6dvw , 2rem);
     font-weight: 400;
   }
   .thank-you-section P {
     opacity: 0.6;
     color: #fff;
-    font-size:clamp(.9rem , 1dvw , 1rem);
+    font-size:clamp(.9rem , 1.3dvw , 1rem);
   }
   
